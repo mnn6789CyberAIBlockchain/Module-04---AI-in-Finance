@@ -100,6 +100,10 @@ FinSight_Finance_News_Assignment/
 ├── app.py
 ├── model_training.py
 ├── preprocess.py
+├── market_data.py
+├── news_feed.py
+├── model_evaluation.txt
+├── test_sentiment.py
 ├── sample_data.csv
 ├── requirements.txt
 ├── README.md
