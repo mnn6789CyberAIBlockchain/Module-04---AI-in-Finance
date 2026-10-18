@@ -1,0 +1,33 @@
+FinSight AI - Sentiment Model Evaluation
+========================================
+
+Dataset rows used: 165
+Training rows: 123
+Test rows: 42
+Label distribution: {'negative': 55, 'neutral': 55, 'positive': 55}
+TF-IDF features: 1275
+Naive Bayes alpha: 0.5
+Test accuracy: 0.5238
+Macro F1-score: 0.5232
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    negative       0.31      0.36      0.33        14
+     neutral       0.93      0.93      0.93        14
+    positive       0.33      0.29      0.31        14
+
+    accuracy                           0.52        42
+   macro avg       0.52      0.52      0.52        42
+weighted avg       0.52      0.52      0.52        42
+
+Confusion Matrix (labels: ['negative', 'neutral', 'positive']):
+[[ 5  1  8]
+ [ 1 13  0]
+ [10  0  4]]
+
+Limitations:
+This evaluation uses a single stratified train/test split.
+Performance depends on the quality and size of the dataset.
+Results may not generalize to real-world financial news.
+Sentiment classification is not a prediction of market returns.
